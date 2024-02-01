@@ -34,3 +34,6 @@ sfml-network.lib
 vorbis.lib
 vorbisenc.lib
 vorbisfile.lib
+
+
+When done, build project by CTRL + B or right-clicking the <PROJECT_NAME> on the Solution Explorer tab and selecting "Build".
