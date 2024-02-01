@@ -9,6 +9,11 @@ C/C++ -> General -> Additional Include Directories
 $(SolutionDir)\include
 put SFML include folder in here aka "SFML". (already included in this GitHub.)
 
+C/C++ -> Preprocessor
+  * SMFL_STATIC
+  * WIN32
+  * _DEBUG
+  * _WINDOWS
 
 Linker -> General -> Additional Library Directories
 $(SolutionDir)\lib
