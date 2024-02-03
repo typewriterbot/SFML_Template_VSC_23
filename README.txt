@@ -42,3 +42,7 @@ vorbisfile.lib
 
 
 When done, build project by CTRL + B or right-clicking the <PROJECT_NAME> on the Solution Explorer tab and selecting "Build".
+
+If you have errors executing program "unloaded /bin/-2.lib/.dll" file
+AFTER BUILDING x64 folder will generate , hence in your folder copy the contents from "Debug" into the most outer x64 folder
+then create a "Release" folder and copy contents from this github into there. 
