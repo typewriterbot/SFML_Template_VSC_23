@@ -1,15 +1,9 @@
-#include <iostream>
-#include "SFML/Graphics.hpp"
 #include "SFML/Window.hpp"
 
 int main() {
-
-	sf::Window window(sf::VideoMode(800, 600), "Window");
-
+	sf::Window window(sf::VideoMode(800, 600), "My Window");
 	while (window.isOpen()) {
 
 	}
-
-
-	return 0; 
-} 
+	return 0;
+}
