@@ -46,3 +46,6 @@ When done, build project by CTRL + B or right-clicking the <PROJECT_NAME> on the
 If you have errors executing program "unloaded /bin/-2.lib/.dll" file
 AFTER BUILDING x64 folder will generate , hence in your folder copy the contents from "Debug" into the most outer x64 folder
 then create a "Release" folder and copy contents from this github into there. 
+
+
+P.S. you can also #define SFML_STATIC instead of placing into preprocessor if you still have issuings linking, or remove SFML_STATIC from preprocessor if you are mixing debug/shared libraries! (__-d.lib_)
